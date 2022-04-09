@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../dist/output.css" rel="stylesheet">
+</head>
+
+<body>
+    <section class="container mx-auto flex justify-center items-center  min-h-screen p-4">
+        <div class="border border-slate-300	rounded p-10 w-full max-w-md ">
+            <div class="flex flex-col items-center gap-2">
+                <img src="./assets/logo/logo.png" alt="Google Logo" class="w-24 sm:w-32">
+                <h1 class="text-2xl text-[#202124]">Sign in</h1>
+                <p class="text-[#202124]">Use your Google Account</p>
+            </div>
+            <form>
+                <label class="block">
+                    <span
+                        class="block text-sm font-medium text-slate-700 after:content-['*'] after:ml-0.5 after:text-red-500 capitalize">Email</span>
+                    <input type="email" class="peer mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
+                        focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500
+                        disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
+                        invalid:border-pink-500 invalid:text-pink-600
+                        focus:invalid:border-pink-500 focus:invalid:ring-pink-500" placeholder="example@gmail.com" />
+                    <p class="mt-2 invisible peer-invalid:visible text-pink-600 text-sm">
+                        Please provide a valid email address.
+                    </p>
+                </label>
+
+                <label class="block">
+                    <span
+                        class="block text-sm font-medium text-slate-700 after:content-['*'] after:ml-0.5 after:text-red-500 capitalize">password</span>
+                    <input type="password" class="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
+                        focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500
+                        disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
+                        invalid:border-pink-500 invalid:text-pink-600
+                        focus:invalid:border-pink-500 focus:invalid:ring-pink-500" placeholder="password" />
+                    <p class="mt-2 invisible peer-invalid:visible text-pink-600 text-sm">
+                        Please provide a valid email address.
+                    </p>
+                </label>
+                <a href="#" class="text-sm text-sky-500 block">Forget password?</a>
+                <p class="text-sm my-6">Not your computer? Use Guest mode to sign in privately. <a href="#"
+                        class="text-sky-500 capitalize font-medium whitespace-nowrap">Learn more</a>
+                </p>
+                <div class="flex flex-row justify-between items-center mt-8">
+                    <a href="#" class="text-sky-500 capitalize font-medium">create account</a>
+                    <button class="bg-sky-500 px-5 py-2 text-white rounded uppercase font-medium"
+                        type="submit">login</button>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
