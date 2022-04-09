@@ -615,6 +615,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding: 2.5rem;
 }
 
+.p-5 {
+  padding: 1.25rem;
+}
+
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -788,5 +792,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 @media (min-width: 640px) {
   .sm\:w-32 {
     width: 8rem;
+  }
+
+  .sm\:p-10 {
+    padding: 2.5rem;
   }
 }
