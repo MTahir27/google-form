@@ -506,6 +506,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   visibility: hidden;
 }
 
+.m-auto {
+  margin: auto;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -528,8 +532,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 2rem;
 }
 
+.mt-4 {
+  margin-top: 1rem;
+}
+
 .block {
   display: block;
+}
+
+.inline-block {
+  display: inline-block;
 }
 
 .flex {
@@ -611,10 +623,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding: 1rem;
 }
 
-.p-10 {
-  padding: 2.5rem;
-}
-
 .p-5 {
   padding: 1.25rem;
 }
@@ -634,8 +642,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 1.25rem;
 }
 
-.font-mono {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+.text-center {
+  text-align: center;
 }
 
 .font-sans {
